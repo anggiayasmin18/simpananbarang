@@ -1,9 +1,15 @@
 <?php 
 
-	$username = "root";
-    $password = "";
-    $database = "beligo_db";
-    $hostname = "localhost";
+	//$username = "root";
+    //$password = "";
+    //$database = "beligo_db";
+    //$hostname = "localhost";
+    //$con = mysqli_connect($hostname,$username,$password,$database) or die("Connection Corrupt");
+
+$username = "rS1HkyJFGc";
+    $password = "N8KYFX4eHR";
+    $database = "rS1HkyJFGc";
+    $hostname = "remotemysql.com";
     $con = mysqli_connect($hostname,$username,$password,$database) or die("Connection Corrupt");
 
     $rg = new lsp();
